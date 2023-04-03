@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Command (MR)</Name>
+    <Description>Command MediatR</Description>
+    <ProjectType>CSharp</ProjectType>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Command.cs" ReplaceParameters="true">Command.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$CommandHandler.cs" ReplaceParameters="true">CommandHandler.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$CommandResult.cs" ReplaceParameters="true">CommandResult.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
